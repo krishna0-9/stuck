@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stuck</title>
+    <link rel="stylesheet" href="styledate.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h1 class="box">
+                <div>
+                    <h1 class="ask">What should be done in situations where the conversation becomes stagnant? </h1>
+                </div>
+            </h1>
+        </div>
+        
+        <div class="gif_container">
+            <img src="https://media1.tenor.com/m/siQmE-07ZD8AAAAC/huh-confused.gif" alt="Thinking......">
+        </div>
+        <div>
+            <h1 class="boxed">
+                <div>
+                    <h1 class="asked">How would you like to answer? text or voice note </h1>
+                </div>
+            </h1>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="voiceButton" onclick="nextPage('voice.html')">voiceNote</button>
+            <button class="btn" id="textButton" onclick="nextPage('text.html')">text</button>
+        </div>
+        
+
+        <script>
+            function nextPage(destination) {
+                window.location.href = destination;
+            }
+
+            function showConfirmation() {
+                window.location.href = "first.html";
+            }
+        </script>
+
+    </div>
+</body>
+</html>

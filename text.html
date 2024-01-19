@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+    <link rel="stylesheet" href="styledate.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="gif_container">
+            <img src="https://media1.tenor.com/m/j4aoDoJ2HZAAAAAC/you-up-texting.gif" alt="typing......" width="350">
+        </div>
+        <div id="messageBox">
+            <label for="messageInput">Type your message:</label>
+            <textarea id="messageInput" rows="4" placeholder="Type Your message"></textarea>
+            <button id="submitButton" onclick="submitMessage()">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        function submitMessage() {
+            const message = document.getElementById('messageInput').value;
+            window.location.href = `final.html?message=${encodeURIComponent(message)}`;
+        }
+    </script>
+
+</body>
+</html>

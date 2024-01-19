@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #2a2929;
+}
+
+#voiceButton{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+#textButton{
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.ask{
+    font-family: 'Comic Sans MS';
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(43, 1, 94);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.buttons{
+    font-family: 'Comic Sans MS';
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: #f72ec5;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    border-radius: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.gif_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+    height: 100px;
+    width: 500px;
+    border: 5px solid #f60101;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.asked{
+    font-family: 'Comic Sans MS';
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(233, 231, 236);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.boxed{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #24010d;
+    height: 40px;
+    width: 500px;
+    border-radius: 35px;
+    margin-bottom: 10px;
+}
+
+#messageBox {
+    width: 300px;
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    border-width: 5px;
+    border-color: black;
+    background-color: #fff;
+}
+
+#messageInput {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#flowerImage {
+    position: absolute;
+    top: 2px; /* Adjust the top position as needed */
+    right: 10px;
+    width: 5px; /* Adjust the width as needed */
+    z-index: 2; /* Ensure the flower is behind the box */
+}
+
+
+#messageContent {
+    margin-bottom: 15px;
+}
+
+.boxer{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #F3AAC8;
+    height: 400px;
+    width: 500px;
+    border: 5px solid #020202;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.asker{
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    font-weight: bold;
+    color: #120105;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;}
